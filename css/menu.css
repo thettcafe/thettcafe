@@ -1,0 +1,108 @@
+/* Food Order Line */
+
+.foodOrder{
+  background-color: #dbe6fd;
+  padding: 20px 30px;
+  margin: 15px auto;
+  width: 85%;
+  border-radius: 10px;
+  font-family: 'KoHo', sans-serif;
+  color: black;
+  font-family: 'KoHo', sans-serif;
+}
+
+.foodOrder p{
+  font-size: 1.2rem;
+}
+
+.foodOrder a{
+  color: #293b5f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.foodOrder a:hover{
+  color :red;
+}
+
+/* Order button */
+
+.orderButton{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  right: 40px;
+  bottom: 50px;
+  text-align: center;
+  z-index: 1;
+
+}
+
+.orderButton img{
+  width: auto;
+  height: 100px;
+}
+
+.orderButton p{
+  text-align: center;
+}
+
+.menuList{
+  font-family: 'Tinos', serif;
+  text-align: left;
+  background-image: url("D:\TT Cafe\images\menuback.jpg");
+}
+
+
+.table{
+  box-shadow: 0 8px 32px 0 rgba(5, 55, 66, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: #C9E4C5;
+  color: black;
+  font-size: 1.3rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section-2 */
+/* Covid Info */
+.covidinfo {
+  background-color: red;
+  padding: 20px 30px;
+  margin: 15px auto;
+  width: 85%;
+  border-radius: 10px;
+  font-family: 'KoHo', sans-serif;
+  color: white;
+}
+
+.covidHead {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}

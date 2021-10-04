@@ -1,0 +1,313 @@
+/* HTML TAGS */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  background-image: url("../images/menuback.jpg");
+  background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+
+/*filter: blur(8px);
+-webkit-filter: blur(8px); */
+  height: 100%;
+}
+
+/* Navigation Bar */
+.img-logo {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.nav-top {
+  /* background-color: #bc986a; */
+  background-color: #5cdb95;
+  padding: 20px 30px;
+  margin: 15px auto;
+  width: 95%;
+  border-radius: 10px;
+}
+
+
+.nav-headings {
+  font-size: 2.5rem;
+  font-family: 'Caveat', cursive;
+  color: white;
+  margin: 0 8px;
+  font-weight: 300;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+/* Baics */
+.basicInfo {
+  width: 30%;
+  height: 100px;
+  margin: 20px 40px;
+  text-decoration: none;
+  font-family: 'Patua One', cursive;
+  box-shadow: 0 8px 32px 0 rgba(5, 55, 66, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: #fdfdfd;
+}
+
+.basicInfo h3 {
+  font-size: 1.5rem;
+}
+
+.basicInfo p {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.basicInfo a {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.basicInfo a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.callGif {
+  width: 30px;
+}
+
+
+
+/* Find Us */
+
+
+/* Responsive Maps */
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+border-radius: 10px;
+}
+
+h1{
+  font-family: 'Caveat', cursive;
+}
+
+
+.content-box{
+  padding: 20px 30px;
+  margin: 15px auto;
+  width: 95%;
+  border-radius: 10px;
+
+
+  backdrop-filter: blur(4px);
+}
+
+.box1{
+  margin: 20px auto;
+  border: 4px ;
+  border-color: #F8485E;
+}
+
+.box2{
+  margin: 20px 0;
+  text-align: left;
+  font-family: 'Share Tech Mono', monospace;
+  color: #1b0f24;
+  background-color: #fdfdfd;
+}
+
+.box2 a{
+  text-decoration: none;
+}
+.box2 h2{
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.box2 p{
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.editGif{
+  width: 45px;
+  margin: 8px auto;
+}
+
+
+/* About US */
+
+.section{
+  background-color: #A2DBFA;
+
+  margin: 40px auto;
+  text-decoration: none;
+  font-family: 'Patua One', cursive;
+  box-shadow: 0 8px 32px 0 rgba(5, 55, 66, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.gifImg{
+  border-radius: 100%;
+  width: 130px;
+  margin-top: 50px;
+}
+
+
+.headings{
+  margin-top: 30px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.description{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+
+.moreButton{
+  font-size: 1.5rem;
+  font-family: 'Lobster Two', cursive;
+  backdrop-filter: blur(8px);
+}
+
+
+
+
+
+
+.personalHeadings{
+ font-size: 1.5rem;
+ margin-top: 15px;
+ margin-bottom: 0;
+ font-family: 'Lobster Two', cursive;
+}
+
+
+.igImg{
+  width: 60px;
+}
+
+.personalImg{
+  border-radius: 100%;
+  width: 80px;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Section-8 */
+/* Footer */
+.section-8 {
+  background-color: black;
+  padding: 20px 30px;
+  margin: 15px auto;
+  border-radius: 10px;
+  color: white;
+}
+
+.footer-imps {
+  text-align: left;
+}
+
+.footer-imps p {
+  margin: 0;
+}
+
+.social-icons {
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.footerLink {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.footerLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1280px){
+   .nav-headings{
+     font-size: 2.2rem;
+   }
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+  .nav-headings {
+    font-size: 2.2rem;
+  }
+}
+
+/* ------------------------------------- */
+@media screen and (max-width: 414px) {
+  .nav-top {
+    padding: 0;
+    margin: 8px auto;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .nav-headings {
+    font-size: 2rem;
+  }
+
+  .content-box {
+    padding: 0;
+    margin: 8px auto;
+    width: 95%;
+  }
+
+  .imp-headings {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-8 {
+    padding: 0;
+    margin: 8px auto;
+    width: 95%;
+  }
+
+  .footer-imps {
+    text-align: center;
+  }
+}
